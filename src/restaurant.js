@@ -13,7 +13,6 @@ function createRestaurant(restaurantName) {
 };
 
 
-
 function addMenuItem(restaurant, menuItem) {
   if (menuItem.type === 'breakfast' && !restaurant.menus.breakfast.includes(menuItem)) {
     restaurant.menus.breakfast.push(menuItem);
